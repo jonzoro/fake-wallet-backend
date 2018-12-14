@@ -30,7 +30,7 @@ class Service {
         HashMap<String, List<String>> map = new HashMap<>();
         try {
             // 打开链接
-            conn = JdbcUtil.getConnection();
+            conn = DbcpUtil.getConnection();
 
             // 拼接查询条件
             String body = req.body();
