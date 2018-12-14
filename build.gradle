@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.jonz'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.postgresql:postgresql:42.1.4"
+    compile "com.sparkjava:spark-core:2.7.2"
+    compile "org.slf4j:slf4j-simple:1.7.21"
+    compile "com.google.code.gson:gson:2.3.1"
+}
